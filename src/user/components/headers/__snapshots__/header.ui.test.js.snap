@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header UI Render Header UI component with currentPage=CONSTANTS.SIDEBAR_PAGEID.EQUIPMENT 1`] = `
+<div
+  id="header"
+>
+  <Top
+    clickMenu={[Function]}
+    currentPage={200}
+  />
+  <NavUI
+    clickMenu={[Function]}
+    currentPage={200}
+    openCart={false}
+    setBack={[Function]}
+    setOpenCart={[Function]}
+  />
+</div>
+`;
+
+exports[`Header UI Render Header UI component with currentPage=CONSTANTS.SIDEBAR_PAGEID.PROFILE 1`] = `
+<div
+  id="header"
+>
+  <Top
+    clickMenu={[Function]}
+    currentPage={100}
+  />
+  <NavUI
+    clickMenu={[Function]}
+    currentPage={100}
+    openCart={false}
+    setBack={[Function]}
+    setOpenCart={[Function]}
+  />
+</div>
+`;
+
+exports[`Header UI Render Header UI component with currentPage=undefined 1`] = `
+<div
+  id="header"
+>
+  <Top
+    clickMenu={[Function]}
+    currentPage={-1}
+  />
+  <NavUI
+    clickMenu={[Function]}
+    currentPage={-1}
+    openCart={false}
+    setBack={[Function]}
+    setOpenCart={[Function]}
+  />
+</div>
+`;

@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile Render Profile UI component with currentTab=PROFILE_ACHIEVEMENT 1`] = `
+<div>
+  <div
+    className="container-fluid"
+  >
+    <ul
+      data-testid="tab-list"
+    >
+      <li
+        className="pointer "
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span>
+          OVERVIEW
+        </span>
+      </li>
+      <li
+        className="pointer "
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span>
+          WORKOUTS
+        </span>
+      </li>
+      <li
+        className="pointer active"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span>
+          ACHIEVEMENTS
+        </span>
+      </li>
+      <li
+        className="pointer "
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span>
+          BASIC INFO
+        </span>
+      </li>
+    </ul>
+  </div>
+  <ProfileUserInfo />
+</div>
+`;
+
+exports[`Profile Render Profile UI component with currentTab=PROFILE_BASICINFO 1`] = `
+<div>
+  <div
+    className="container-fluid"
+  >
+    <ul
+      data-testid="tab-list"
+    >
+      <li
+        className="pointer "
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span>
+          OVERVIEW
+        </span>
+      </li>
+      <li
+        className="pointer "
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span>
+          WORKOUTS
+        </span>
+      </li>
+      <li
+        className="pointer "
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span>
+          ACHIEVEMENTS
+        </span>
+      </li>
+      <li
+        className="pointer active"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span>
+          BASIC INFO
+        </span>
+      </li>
+    </ul>
+  </div>
+  <ProfileUserInfo />
+</div>
+`;
+
+exports[`Profile Render Profile UI component with currentTab=PROFILE_OVERVIEW 1`] = `
+<div>
+  <div
+    className="container-fluid"
+  >
+    <ul
+      data-testid="tab-list"
+    >
+      <li
+        className="pointer active"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span>
+          OVERVIEW
+        </span>
+      </li>
+      <li
+        className="pointer "
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span>
+          WORKOUTS
+        </span>
+      </li>
+      <li
+        className="pointer "
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span>
+          ACHIEVEMENTS
+        </span>
+      </li>
+      <li
+        className="pointer "
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span>
+          BASIC INFO
+        </span>
+      </li>
+    </ul>
+  </div>
+  <ProfileUserInfo />
+</div>
+`;
+
+exports[`Profile Render Profile UI component with currentTab=PROFILE_WORKOUT 1`] = `
+<div>
+  <div
+    className="container-fluid"
+  >
+    <ul
+      data-testid="tab-list"
+    >
+      <li
+        className="pointer "
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span>
+          OVERVIEW
+        </span>
+      </li>
+      <li
+        className="pointer active"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span>
+          WORKOUTS
+        </span>
+      </li>
+      <li
+        className="pointer "
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span>
+          ACHIEVEMENTS
+        </span>
+      </li>
+      <li
+        className="pointer "
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span>
+          BASIC INFO
+        </span>
+      </li>
+    </ul>
+  </div>
+  <ProfileUserInfo />
+</div>
+`;
+
+exports[`Profile Render Profile UI component with currentTab=undefined 1`] = `
+<div>
+  <div
+    className="container-fluid"
+  >
+    <ul
+      data-testid="tab-list"
+    >
+      <li
+        className="pointer "
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span>
+          OVERVIEW
+        </span>
+      </li>
+      <li
+        className="pointer "
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span>
+          WORKOUTS
+        </span>
+      </li>
+      <li
+        className="pointer "
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span>
+          ACHIEVEMENTS
+        </span>
+      </li>
+      <li
+        className="pointer "
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span>
+          BASIC INFO
+        </span>
+      </li>
+    </ul>
+  </div>
+  <ProfileUserInfo />
+</div>
+`;

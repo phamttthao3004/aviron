@@ -1,0 +1,54 @@
+label,
+h1,h2,h3,h4,h5,h6 {
+   color: #666;
+}
+
+a {
+   text-decoration: none !important;
+   &.text-primary {
+      .transition-all(0.3s);
+      &:hover {
+         color: #666 !important;
+         .transition-all(0.3s)
+      }
+   }
+}
+
+.text-12 {
+   font-size: 12px;
+}
+.text-13 {
+   font-size: 13px;
+}
+
+.text-right {
+   text-align: right;
+}
+.text-uppercase {
+   text-transform: uppercase;
+}
+
+.text-thin {
+    font-weight: 300;
+}
+.text-rg {
+    font-size: 13px;
+}
+.text-bold {
+    font-weight: 600;
+}
+.text-bolder {
+   font-weight: bold;
+}
+.text-success {
+   color: @green !important;
+   .transition-all(0.3s);
+}
+
+.text-primary {
+   color: @red-1 !important;
+   .transition-all(0.3s)
+   &:hover {
+      color: #333;
+   }
+}

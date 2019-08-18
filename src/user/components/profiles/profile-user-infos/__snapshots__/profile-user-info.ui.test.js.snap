@@ -1,0 +1,216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile Info UI Render Profile Info UI component 1`] = `
+<div
+  className="profile-info"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-2 col-md-offset-1 text-left"
+      >
+        <div
+          className="avatar-box"
+        >
+          <div
+            className="img"
+          >
+            <img
+              alt=""
+              src="/images/user/no-avatar.png"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-9 text-left"
+      >
+        <div
+          className="user-info-box"
+        >
+          <p>
+            Larry Garza Aviron
+          </p>
+          <p>
+            Gabriel Salazar Tomy
+          </p>
+          <ul>
+            <li>
+              <img
+                alt=""
+                src="/images/user/achievement.png"
+              />
+              <p>
+                Professional
+              </p>
+            </li>
+            <li
+              className="pointer"
+              onClick={[Function]}
+              role="presentation"
+            >
+              <p>
+                <i
+                  className="icon-users-mm"
+                />
+                <span>
+                  12 friends
+                </span>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <CmsDialog
+        className=""
+        open={false}
+      >
+        <div
+          id="dialog-friend-list"
+        >
+          <div
+            className="friend-list-header"
+          >
+            <span>
+              Friend (12)
+            </span>
+            <i
+              className="icon-close"
+              onClick={[Function]}
+              role="presentation"
+            />
+          </div>
+          <div
+            className="friend-list-content"
+          >
+            <div
+              className="friend-item"
+            >
+              <div
+                className="img"
+              >
+                <img
+                  alt=""
+                  src="/images/user/no-avatar.png"
+                />
+              </div>
+              <p
+                className="name"
+              >
+                Gabriel Aviron
+              </p>
+              <p>
+                Gabriel Salazar
+              </p>
+            </div>
+            <div
+              className="friend-item"
+            >
+              <div
+                className="img"
+              >
+                <img
+                  alt=""
+                  src="/images/user/no-avatar.png"
+                />
+              </div>
+              <p
+                className="name"
+              >
+                Jack Aviron
+              </p>
+              <p>
+                Jack Potter
+              </p>
+            </div>
+            <div
+              className="friend-item"
+            >
+              <div
+                className="img"
+              >
+                <img
+                  alt=""
+                  src="/images/user/no-avatar.png"
+                />
+              </div>
+              <p
+                className="name"
+              >
+                Sue Aviron
+              </p>
+              <p>
+                Sue Hughes
+              </p>
+            </div>
+            <div
+              className="friend-item"
+            >
+              <div
+                className="img"
+              >
+                <img
+                  alt=""
+                  src="/images/user/no-avatar.png"
+                />
+              </div>
+              <p
+                className="name"
+              >
+                Gertrude Aviron
+              </p>
+              <p>
+                Gertrude Bowers
+              </p>
+            </div>
+            <div
+              className="friend-item"
+            >
+              <div
+                className="img"
+              >
+                <img
+                  alt=""
+                  src="/images/user/no-avatar.png"
+                />
+              </div>
+              <p
+                className="name"
+              >
+                Victor Aviron
+              </p>
+              <p>
+                Victor Evans
+              </p>
+            </div>
+            <div
+              className="friend-item"
+            >
+              <div
+                className="img"
+              >
+                <img
+                  alt=""
+                  src="/images/user/no-avatar.png"
+                />
+              </div>
+              <p
+                className="name"
+              >
+                Sue Aviron
+              </p>
+              <p>
+                Sue Hughes
+              </p>
+            </div>
+          </div>
+        </div>
+      </CmsDialog>
+    </div>
+  </div>
+</div>
+`;

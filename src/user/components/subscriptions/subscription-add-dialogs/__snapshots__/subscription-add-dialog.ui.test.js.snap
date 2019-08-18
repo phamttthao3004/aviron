@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Subscription Add Dialog UI Render Subscription Add Dialog UI component 1`] = `
+<CmsDialog
+  className="dialog-add-edit-group"
+  open={false}
+>
+  <div
+    className="cms-dialog-content"
+  >
+    <div
+      className="cms-dialog-title"
+    >
+      <span>
+        ADD MACHINE
+      </span>
+    </div>
+    <div
+      className="cms-dialog-main"
+    >
+      <div
+        className="modal-body edit-group-container"
+      >
+        <p>
+          MACHINE ID
+        </p>
+        <input
+          className="form-control"
+          placeholder=""
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="cms-dialog-footer"
+    >
+      <button
+        className="btn btn-default"
+        name="button"
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </button>
+      <button
+        className="btn btn-primary"
+        disabled={false}
+        name="button"
+        type="button"
+      >
+        Add
+      </button>
+    </div>
+  </div>
+</CmsDialog>
+`;

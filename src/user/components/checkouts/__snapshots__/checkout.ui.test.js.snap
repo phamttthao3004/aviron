@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkout UI Render Checkout UI component 1`] = `
+<div
+  className="payment-container"
+  id="checkout-page"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="warning"
+    >
+      <div>
+        <i
+          className="icon-ic_warning_24px"
+        />
+        <span>
+          Transaction expired: over 10 munites for transaction
+        </span>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-sm-7 col-xs-12"
+      >
+        <Route
+          component={[Function]}
+          path="/checkout/checkout-information"
+        />
+        <Route
+          component={[Function]}
+          path="/checkout/checkout-payment-method"
+        />
+        <Route
+          component={[Function]}
+          path="/checkout/checkout-review-order"
+        />
+      </div>
+      <div
+        className="col-sm-5 col-xs-12"
+      >
+        <div
+          className="aviron-cart-detail"
+        >
+          <div
+            className="title"
+          >
+            SUMMARY
+          </div>
+          <CartBox />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

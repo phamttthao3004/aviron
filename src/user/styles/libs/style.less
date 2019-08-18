@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i'); 
+
+@red-1: #ce0832;
+@green: #5CB85C;
+@black-3: #2b2b2b;
+@black-2: #333;
+@black-1: #666;
+@black-0: #999;
+@grey: #f2f2f2;
+// Main color
+// ------------------------------------------
+
+@text : @black-1;
+// Text color
+// ------------------------------------------
+
+
+
+@screen-xs-max  : 767px;
+@screen-sm-min :  767px;
+@screen-sm-max :  991px;
+@screen-md-min :  992px;
+@screen-md-max :  1199px;
+@screen-lg-min  : 1200px;
+// Screen size
+// ------------------------------------------
+
+
+.position-relative {
+   position: relative;
+}
+.cursor-pointer {
+   cursor: pointer;
+}
+
+// ------------------------------------------
+// START :: Reset margin
+.generate-margin-padding(150);
+
+.generate-margin-padding(@n, @i:1) when (@i =< @n) {
+  .margin-top-@{i} {
+    margin-top: ~"@{i}px";
+  }
+  .margin-bottom-@{i} {
+    margin-bottom: ~"@{i}px";
+  }
+  .padding-top-@{i} {
+      padding-top: ~"@{i}px";
+   }
+   .padding-bottom-@{i} {
+       padding-bottom: ~"@{i}px";
+   }
+   .z-index-@{i} {
+      z-index: ~"@{i}";
+   }
+  .generate-margin-padding(@n, (@i + 1));
+}
+// END :: Reset margin
+// ------------------------------------------
+
+
+// ------------------------------------------
+// START :: Reset text size
+.generate-text(20);
+.generate-text(@n, @i:9) when (@i =< @n) {
+
+  .text-size-@{i} {
+    font-size:  ~"@{i}px";
+  }
+
+  .generate-text(@n, (@i + 1));
+}
+// END :: Reset text size
+// ------------------------------------------
+
+
+// ------------------------------------------
+// START :: Reset text weight
+.generate-weight(9);
+.generate-weight(@n, @i:1) when (@i =< @n) {
+
+  .text-weight-@{i} {
+    font-weight:  ~"@{i}00px";
+  }
+
+  .generate-weight(@n, (@i + 1));
+}
+// END :: Reset text weight
+// ------------------------------------------
+
+
+// ------------------------------------------
+// START :: Define for mobile
+@media (max-width: @screen-xs-max) {
+   .wide-xs {
+      width: 100% !important
+   }
+   .width-49-percent-xs {
+      width: 49%;
+   }
+
+   .generate-margin-padding-xs(150);
+
+   .generate-margin-padding-xs(@n, @i:1) when (@i =< @n) {
+     .margin-top-xs-@{i} {
+       margin-top: ~"@{i}px";
+     }
+     .margin-bottom-xs-@{i} {
+       margin-bottom: ~"@{i}px";
+     }
+     .padding-top-xs-@{i} {
+         padding-top: ~"@{i}px";
+      }
+      .padding-bottom-xs-@{i} {
+          padding-bottom: ~"@{i}px";
+      }
+      .z-index-xs-@{i} {
+         z-index: ~"@{i}";
+      }
+     .generate-margin-padding-xs(@n, (@i + 1));
+   }
+
+
+}
+// END :: Define for mobile
+// ------------------------------------------
+
+// ------------------------------------------
+// START :: Defien function hide
+@media (max-width: @screen-xs-max) {
+   .hide-xs {
+      display: none;
+   }
+   .hide-md-and-up {
+      display: none !important;
+   }
+
+   .text-center-xs {
+      text-align: center;
+   }
+   .text-center-xs-sm {
+      text-align: center;
+   }
+
+} /*Mobile*/
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+   .hide-md-and-up {
+      display: none !important;
+   }
+   .text-center-xs-sm {
+      text-align: center;
+   }
+}
+/*Tablet*/
+
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+   .hide-md-and-up {
+      display: none !important;
+   }
+}
+// Small PC
+
+@media (min-width: @screen-lg-min) {
+   .hide-md-and-up {
+      display: none !important;
+   }
+}
+// Big PC
+// END :: Defien function hide
+// ------------------------------------------

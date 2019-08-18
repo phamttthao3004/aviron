@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Equipment Overview Dialog UI Render Equipment Overview Dialog UI component 1`] = `
+<CmsDialog
+  className="dialog-add-edit-group"
+  open={false}
+>
+  <div
+    className="cms-dialog-content"
+  >
+    <div
+      className="cms-dialog-title"
+    >
+      <span>
+        EDIT
+      </span>
+    </div>
+    <div
+      className="cms-dialog-main"
+    >
+      <div
+        className="modal-body edit-group-container"
+      >
+        <p>
+          EQUIPMENT NAME
+        </p>
+        <input
+          className="form-control"
+          placeholder="Equipment name"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="cms-dialog-footer"
+    >
+      <button
+        className="btn btn-default"
+        name="button"
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </button>
+      <button
+        className="btn btn-primary"
+        name="button"
+        type="button"
+      >
+        Add
+      </button>
+    </div>
+  </div>
+</CmsDialog>
+`;

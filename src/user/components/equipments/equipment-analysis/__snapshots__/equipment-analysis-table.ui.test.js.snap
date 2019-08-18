@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Equipment Analysis Table UI Render Equipment Analysis Table UI component 1`] = `
+<div
+  className="equipment-analysis-col-left"
+>
+  <div
+    className="form-inline"
+  >
+    <div
+      className="input-group input-search-container"
+    >
+      <input
+        className="form-control"
+        onChange={[Function]}
+        placeholder="Search"
+        type="text"
+      />
+      <span
+        className="input-group-btn"
+      >
+        <button
+          className="btn btn-default"
+          onClick={[Function]}
+          type="button"
+        >
+           
+          <span
+            aria-hidden="true"
+            className="glyphicon glyphicon-search"
+          />
+        </button>
+      </span>
+    </div>
+  </div>
+  <label
+    htmlFor="select-all"
+  >
+    <input
+      id="select-all"
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <span>
+      All
+    </span>
+  </label>
+  <div
+    className="cms-table-content"
+  >
+    <table
+      className="table aviron-table action-table call-data-table"
+    >
+      <tbody />
+    </table>
+  </div>
+</div>
+`;

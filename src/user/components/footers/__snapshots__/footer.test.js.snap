@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Render Footer component 1`] = `
+<footer>
+  <div
+    className="container"
+  >
+    <div
+      className="top col-md-12"
+    >
+      <img
+        alt="Aviron logo"
+        className="logo"
+        src="/images/user/Logo-2.png"
+      />
+      <ul
+        className="social"
+      >
+        <li>
+          <a
+            href="https://avironactive.com/"
+          >
+            <i
+              className=" icon-twitter"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://avironactive.com/"
+          >
+            <i
+              className=" icon-gplus"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://avironactive.com/"
+          >
+            <i
+              className=" icon-instagram"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://avironactive.com/"
+          >
+            <i
+              className=" icon-linkedin"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://avironactive.com/"
+          >
+            <i
+              className=" icon-facebook"
+            />
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="end col-md-12"
+    >
+      2019 © Power by Aviron Interactive Inc.
+    </div>
+  </div>
+</footer>
+`;

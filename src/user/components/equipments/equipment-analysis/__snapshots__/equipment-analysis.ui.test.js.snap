@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Equipment Analysis UI Render Equipment Analysis UI component 1`] = `
+<div
+  className="equipment-analysis-col-right"
+>
+  <div
+    className="date-range form-inline"
+  >
+    <div
+      className="form-group"
+    >
+      <span
+        className="label-range"
+      >
+        Date range
+      </span>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="form-control-wrapper "
+      >
+        <CmsDatePicker
+          formart={Object {}}
+          format="mm/dd/yyyy"
+          name="from_date"
+          onChange={[Function]}
+          placeholder="From date"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="form-group center"
+    >
+      <span
+        className="label-range"
+      >
+        -
+      </span>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="form-control-wrapper"
+      >
+        <CmsDatePicker
+          formart={Object {}}
+          format="mm/dd/yyyy"
+          name="to_date"
+          onChange={[Function]}
+          placeholder="To date"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <button
+        className="btn btn-primary btn-square"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        <i
+          className=" icon-search"
+        />
+         
+      </button>
+    </div>
+  </div>
+  <div
+    className="result-exercise"
+  >
+    <ChallengeParameter
+      title="Workouts"
+      type="number"
+      value={642}
+    />
+    <ChallengeParameter
+      title="Output (KJ)"
+      type="number"
+      value={37}
+    />
+    <ChallengeParameter
+      title="Calories"
+      type="number"
+      value={1500}
+    />
+    <ChallengeParameter
+      title="Time (Hour:Min)"
+      type="time"
+      value={85500}
+    />
+    <ChallengeParameter
+      title="Meters"
+      type="number"
+      value={1467}
+    />
+    <ChallengeParameter
+      title="Strokes"
+      type="number"
+      value={98}
+    />
+  </div>
+  <ul>
+    <li
+      className="pointer active"
+    >
+      <span>
+        Workouts
+      </span>
+    </li>
+    <li
+      className="pointer"
+    >
+      <span>
+        Time
+      </span>
+    </li>
+    <li
+      className="pointer"
+    >
+      <span>
+        Output
+      </span>
+    </li>
+    <li
+      className="pointer"
+    >
+      <span>
+        Meters
+      </span>
+    </li>
+    <li
+      className="pointer"
+    >
+      <span>
+        Calories
+      </span>
+    </li>
+    <li
+      className="pointer"
+    >
+      <span>
+        Strokes
+      </span>
+    </li>
+  </ul>
+  <div
+    className="container-chart"
+  >
+    <Line
+      data={
+        Object {
+          "datasets": Array [
+            Object {
+              "backgroundColor": Array [
+                "#CD1E35",
+              ],
+              "data": undefined,
+              "fill": true,
+              "label": "",
+              "pointBackgroundColor": "#CD1E35",
+              "pointHitRadius": 10,
+              "pointHoverRadius": 0,
+              "pointRadius": 0,
+            },
+          ],
+          "labels": undefined,
+        }
+      }
+      options={
+        Object {
+          "elements": Object {
+            "line": Object {
+              "tension": 0,
+            },
+          },
+          "responsive": true,
+        }
+      }
+    />
+  </div>
+</div>
+`;

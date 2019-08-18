@@ -1,0 +1,656 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile Overview UI Render Profile Overview UI component with currentTime=CONSTANTS.TIME_TYPE.ALL 1`] = `
+<div
+  id="profile-overview-page"
+>
+  <div
+    className="profile-overview-page-info"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-10 col-md-offset-1"
+        >
+          <ul
+            className="nav-tab-time"
+          >
+            <li
+              onClick={[Function]}
+              role="presentation"
+            >
+              <span
+                className="active"
+              >
+                All time
+              </span>
+            </li>
+            <li
+              onClick={[Function]}
+              role="presentation"
+            >
+              <span
+                className=""
+              >
+                Last 24 hours
+              </span>
+            </li>
+            <li
+              onClick={[Function]}
+              role="presentation"
+            >
+              <span
+                className=""
+              >
+                Last 7 days
+              </span>
+            </li>
+            <li
+              onClick={[Function]}
+              role="presentation"
+            >
+              <span
+                className=""
+              >
+                Last 30 days
+              </span>
+            </li>
+          </ul>
+          <div
+            className="result-exercise"
+          >
+            <ChallengeParameter
+              title="Workouts"
+              type="number"
+              value={642}
+            />
+            <ChallengeParameter
+              title="Output (KJ)"
+              type="number"
+              value={37}
+            />
+            <ChallengeParameter
+              title="Calories"
+              type="number"
+              value={1500}
+            />
+            <ChallengeParameter
+              title="Meters"
+              type="number"
+              value={1467}
+            />
+            <ChallengeParameter
+              title="Strokes"
+              type="number"
+              value={98}
+            />
+            <ChallengeParameter
+              title="Time (Hour:Min)"
+              type="time"
+              value={85500}
+            />
+            <ChallengeParameter
+              title="AVG. Wait"
+              type="number"
+              value={37}
+            />
+            <ChallengeParameter
+              title="AVG. Cal/Hour"
+              type="number"
+              value={50}
+            />
+            <ChallengeParameter
+              title="AVG. Min/550m"
+              type="number"
+              value={1467}
+            />
+            <ChallengeParameter
+              title="AVG. SPM"
+              type="number"
+              value={98}
+            />
+          </div>
+          <div
+            className="achievements"
+          >
+            <div
+              className="achivements-title"
+            >
+              Recent Achievements
+            </div>
+            <AchievementList />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Profile Overview UI Render Profile Overview UI component with currentTime=CONSTANTS.TIME_TYPE.DAY 1`] = `
+<div
+  id="profile-overview-page"
+>
+  <div
+    className="profile-overview-page-info"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-10 col-md-offset-1"
+        >
+          <ul
+            className="nav-tab-time"
+          >
+            <li
+              onClick={[Function]}
+              role="presentation"
+            >
+              <span
+                className=""
+              >
+                All time
+              </span>
+            </li>
+            <li
+              onClick={[Function]}
+              role="presentation"
+            >
+              <span
+                className="active"
+              >
+                Last 24 hours
+              </span>
+            </li>
+            <li
+              onClick={[Function]}
+              role="presentation"
+            >
+              <span
+                className=""
+              >
+                Last 7 days
+              </span>
+            </li>
+            <li
+              onClick={[Function]}
+              role="presentation"
+            >
+              <span
+                className=""
+              >
+                Last 30 days
+              </span>
+            </li>
+          </ul>
+          <div
+            className="result-exercise"
+          >
+            <ChallengeParameter
+              title="Workouts"
+              type="number"
+              value={642}
+            />
+            <ChallengeParameter
+              title="Output (KJ)"
+              type="number"
+              value={37}
+            />
+            <ChallengeParameter
+              title="Calories"
+              type="number"
+              value={1500}
+            />
+            <ChallengeParameter
+              title="Meters"
+              type="number"
+              value={1467}
+            />
+            <ChallengeParameter
+              title="Strokes"
+              type="number"
+              value={98}
+            />
+            <ChallengeParameter
+              title="Time (Hour:Min)"
+              type="time"
+              value={85500}
+            />
+            <ChallengeParameter
+              title="AVG. Wait"
+              type="number"
+              value={37}
+            />
+            <ChallengeParameter
+              title="AVG. Cal/Hour"
+              type="number"
+              value={50}
+            />
+            <ChallengeParameter
+              title="AVG. Min/550m"
+              type="number"
+              value={1467}
+            />
+            <ChallengeParameter
+              title="AVG. SPM"
+              type="number"
+              value={98}
+            />
+          </div>
+          <div
+            className="achievements"
+          >
+            <div
+              className="achivements-title"
+            >
+              Recent Achievements
+            </div>
+            <AchievementList />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Profile Overview UI Render Profile Overview UI component with currentTime=CONSTANTS.TIME_TYPE.MONTH 1`] = `
+<div
+  id="profile-overview-page"
+>
+  <div
+    className="profile-overview-page-info"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-10 col-md-offset-1"
+        >
+          <ul
+            className="nav-tab-time"
+          >
+            <li
+              onClick={[Function]}
+              role="presentation"
+            >
+              <span
+                className=""
+              >
+                All time
+              </span>
+            </li>
+            <li
+              onClick={[Function]}
+              role="presentation"
+            >
+              <span
+                className=""
+              >
+                Last 24 hours
+              </span>
+            </li>
+            <li
+              onClick={[Function]}
+              role="presentation"
+            >
+              <span
+                className=""
+              >
+                Last 7 days
+              </span>
+            </li>
+            <li
+              onClick={[Function]}
+              role="presentation"
+            >
+              <span
+                className="active"
+              >
+                Last 30 days
+              </span>
+            </li>
+          </ul>
+          <div
+            className="result-exercise"
+          >
+            <ChallengeParameter
+              title="Workouts"
+              type="number"
+              value={642}
+            />
+            <ChallengeParameter
+              title="Output (KJ)"
+              type="number"
+              value={37}
+            />
+            <ChallengeParameter
+              title="Calories"
+              type="number"
+              value={1500}
+            />
+            <ChallengeParameter
+              title="Meters"
+              type="number"
+              value={1467}
+            />
+            <ChallengeParameter
+              title="Strokes"
+              type="number"
+              value={98}
+            />
+            <ChallengeParameter
+              title="Time (Hour:Min)"
+              type="time"
+              value={85500}
+            />
+            <ChallengeParameter
+              title="AVG. Wait"
+              type="number"
+              value={37}
+            />
+            <ChallengeParameter
+              title="AVG. Cal/Hour"
+              type="number"
+              value={50}
+            />
+            <ChallengeParameter
+              title="AVG. Min/550m"
+              type="number"
+              value={1467}
+            />
+            <ChallengeParameter
+              title="AVG. SPM"
+              type="number"
+              value={98}
+            />
+          </div>
+          <div
+            className="achievements"
+          >
+            <div
+              className="achivements-title"
+            >
+              Recent Achievements
+            </div>
+            <AchievementList />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Profile Overview UI Render Profile Overview UI component with currentTime=CONSTANTS.TIME_TYPE.WEEK 1`] = `
+<div
+  id="profile-overview-page"
+>
+  <div
+    className="profile-overview-page-info"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-10 col-md-offset-1"
+        >
+          <ul
+            className="nav-tab-time"
+          >
+            <li
+              onClick={[Function]}
+              role="presentation"
+            >
+              <span
+                className=""
+              >
+                All time
+              </span>
+            </li>
+            <li
+              onClick={[Function]}
+              role="presentation"
+            >
+              <span
+                className=""
+              >
+                Last 24 hours
+              </span>
+            </li>
+            <li
+              onClick={[Function]}
+              role="presentation"
+            >
+              <span
+                className="active"
+              >
+                Last 7 days
+              </span>
+            </li>
+            <li
+              onClick={[Function]}
+              role="presentation"
+            >
+              <span
+                className=""
+              >
+                Last 30 days
+              </span>
+            </li>
+          </ul>
+          <div
+            className="result-exercise"
+          >
+            <ChallengeParameter
+              title="Workouts"
+              type="number"
+              value={642}
+            />
+            <ChallengeParameter
+              title="Output (KJ)"
+              type="number"
+              value={37}
+            />
+            <ChallengeParameter
+              title="Calories"
+              type="number"
+              value={1500}
+            />
+            <ChallengeParameter
+              title="Meters"
+              type="number"
+              value={1467}
+            />
+            <ChallengeParameter
+              title="Strokes"
+              type="number"
+              value={98}
+            />
+            <ChallengeParameter
+              title="Time (Hour:Min)"
+              type="time"
+              value={85500}
+            />
+            <ChallengeParameter
+              title="AVG. Wait"
+              type="number"
+              value={37}
+            />
+            <ChallengeParameter
+              title="AVG. Cal/Hour"
+              type="number"
+              value={50}
+            />
+            <ChallengeParameter
+              title="AVG. Min/550m"
+              type="number"
+              value={1467}
+            />
+            <ChallengeParameter
+              title="AVG. SPM"
+              type="number"
+              value={98}
+            />
+          </div>
+          <div
+            className="achievements"
+          >
+            <div
+              className="achivements-title"
+            >
+              Recent Achievements
+            </div>
+            <AchievementList />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Profile Overview UI Render Profile Overview UI component with currentTime=undefined 1`] = `
+<div
+  id="profile-overview-page"
+>
+  <div
+    className="profile-overview-page-info"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-10 col-md-offset-1"
+        >
+          <ul
+            className="nav-tab-time"
+          >
+            <li
+              onClick={[Function]}
+              role="presentation"
+            >
+              <span
+                className="active"
+              >
+                All time
+              </span>
+            </li>
+            <li
+              onClick={[Function]}
+              role="presentation"
+            >
+              <span
+                className=""
+              >
+                Last 24 hours
+              </span>
+            </li>
+            <li
+              onClick={[Function]}
+              role="presentation"
+            >
+              <span
+                className=""
+              >
+                Last 7 days
+              </span>
+            </li>
+            <li
+              onClick={[Function]}
+              role="presentation"
+            >
+              <span
+                className=""
+              >
+                Last 30 days
+              </span>
+            </li>
+          </ul>
+          <div
+            className="result-exercise"
+          >
+            <ChallengeParameter
+              title="Workouts"
+              type="number"
+              value={642}
+            />
+            <ChallengeParameter
+              title="Output (KJ)"
+              type="number"
+              value={37}
+            />
+            <ChallengeParameter
+              title="Calories"
+              type="number"
+              value={1500}
+            />
+            <ChallengeParameter
+              title="Meters"
+              type="number"
+              value={1467}
+            />
+            <ChallengeParameter
+              title="Strokes"
+              type="number"
+              value={98}
+            />
+            <ChallengeParameter
+              title="Time (Hour:Min)"
+              type="time"
+              value={85500}
+            />
+            <ChallengeParameter
+              title="AVG. Wait"
+              type="number"
+              value={37}
+            />
+            <ChallengeParameter
+              title="AVG. Cal/Hour"
+              type="number"
+              value={50}
+            />
+            <ChallengeParameter
+              title="AVG. Min/550m"
+              type="number"
+              value={1467}
+            />
+            <ChallengeParameter
+              title="AVG. SPM"
+              type="number"
+              value={98}
+            />
+          </div>
+          <div
+            className="achievements"
+          >
+            <div
+              className="achivements-title"
+            >
+              Recent Achievements
+            </div>
+            <AchievementList />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

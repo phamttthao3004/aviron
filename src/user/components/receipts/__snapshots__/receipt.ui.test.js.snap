@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Receipt UI Render Receipt UI component 1`] = `
+<div
+  id="receipt-page"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <CmsTable
+        className=""
+        data={Array []}
+        mode="edit"
+        onChange={[Function]}
+        onSearch={[Function]}
+        total={0}
+      >
+        <div
+          className="cms-table-content"
+        >
+          <table
+            className="table aviron-table action-table call-data-table"
+          >
+            <thead>
+              <tr>
+                <th>
+                  #
+                </th>
+                <th>
+                  Order date
+                </th>
+                <th>
+                  Order number
+                </th>
+                <th>
+                  Price
+                </th>
+                <th>
+                  Status
+                </th>
+              </tr>
+            </thead>
+            <tbody />
+          </table>
+        </div>
+      </CmsTable>
+    </div>
+  </div>
+</div>
+`;

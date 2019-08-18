@@ -1,0 +1,238 @@
+.modal  {
+   .modal-dialog {
+      .modal-content {
+         border-radius: 3px;
+         border: none;
+
+         .modal-header {
+            h5 {
+               font-weight: 900;
+               color: @red-1;
+               text-transform: uppercase;
+            }
+         }
+         .modal-body {
+            padding: 30px;
+         }
+
+         .panel-heading {
+            position: relative;
+            .heading-icon {
+               float: right;
+               position: relative;
+               i {
+                  cursor: pointer;
+                  font-size: 20px;
+                  color: #999;
+                  &:hover {
+                     opacity: 0.7;
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+// END :: modal
+// ------------------------------------------
+
+
+
+
+// ------------------------------------------
+// START  :: login register modal
+a[data-target="#login-register"] {
+   cursor: pointer;
+}
+
+#login-register  {
+   .modal-dialog {
+      width: 800px;
+      .modal-content {
+         // height: 680px;
+         background-position: center center;
+
+         .panel-heading {
+            .logo-aviron {
+               position: absolute;
+               left: 0;
+               top: 0;
+               width: 100%;
+               text-align: center;
+               .logo-circle {
+                  margin: auto;
+                  width: 80px;
+                  height: 80px;
+                  background: #fff;
+                  text-align: center;
+                  box-shadow: 0px 8px 100px #999;
+                  border-radius: 50%;
+                  padding-top: 17px;
+                  margin-top: 110px;
+                  img {
+                     width: 45px;
+                  }
+               }
+            }
+         }
+         // END ::    .panel-heading
+
+         .panel-body {
+            margin-top: 75px;
+            .row {
+               & > div {
+                  opacity: 0.4;
+                  .transition-all(0.3s);
+                  &.active {
+                     opacity: 1;
+                  }
+                  h2 {
+                     margin-bottom: 45px;
+                     font-weight: 500;
+                  }
+
+                  &.login-box {
+                     padding: 0px 70px 0px 60px;
+                     .transition-all(0.3s);
+                  }
+                  &.register-box {
+                     padding: 0px 60px 0px 80px;
+                     .transition-all(0.3s);
+                  }
+               }
+            }
+         }
+         // END :: .panel-body
+
+      }
+   }
+}
+// END :: login register modal
+// ------------------------------------------
+
+
+// ------------------------------------------
+// START  :: login register ONLY PC
+@media screen and (min-width: @screen-md-min) {
+
+   #login-register  {
+      .modal-dialog {
+         .modal-content {
+            .panel-heading {
+
+            }
+
+            .panel-body {
+               .row {
+                  & > div {
+                     button[switch-view-login-register] {
+                        display: none;
+                     }
+                     &.login-box {
+
+                     }
+                     &.register-box {
+
+                     }
+                  }
+               }
+            }
+         }
+
+      }
+   }
+}
+// END :: login register ONLY PC
+// ------------------------------------------
+
+
+// ------------------------------------------
+// START  :: login register Tablet
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+   #login-register  {
+      padding: 0px 15px;
+      .__fnc_login_regsiter_layout();
+
+      .modal-dialog  {
+         .modal-content {
+            .panel-body {
+               .row {
+                  & > div {
+                     &.register-box  {
+                        button {
+                           margin-top: 40px;
+                           margin-bottom : 40px;
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+
+   }
+}
+// END :: login register Tablet
+// ------------------------------------------
+
+// ------------------------------------------
+// START  :: login register modal mobile
+@media (max-width: @screen-xs-max) {
+   #login-register {
+      .__fnc_login_regsiter_layout();
+   }
+}
+// END :: login register modal mobile
+// ------------------------------------------
+
+// ------------------------------------------
+// Function custom Login
+.__fnc_login_regsiter_layout() {
+   .modal-dialog  {
+      width: auto;
+      .modal-content {
+         background-image: none;
+         background: #f2f2f2;
+
+         .panel-heading {
+            .logo-aviron {
+               .logo-circle {
+                  width: 60px;
+                  height: 60px;
+                  padding-top: 11px;
+                  margin-top: 30px;
+                  img {
+                     width: 36px;
+                  }
+               }
+            }
+         }
+         /* END :: heading*/
+         .panel-body {
+            .row {
+               & > div {
+                  padding: 0 15px !important;
+                  display: none;
+                  &.active {
+                     display: block;
+                  }
+                  &.login-box  {
+
+                  }
+                  &.register-box  {
+                     form {
+                        input {
+                           background: #fff;
+                        }
+                     }
+                  }
+               }
+            }
+         }
+            /* END :: body*/
+
+      }
+   }
+}
+// END :: Function custom Login
+// ------------------------------------------

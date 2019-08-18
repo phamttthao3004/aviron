@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CmsPopoverUI component Case 1: open=false 1`] = `""`;
+
+exports[`CmsPopoverUI component Case 2: open=true 1`] = `
+<Portal
+  containerInfo={<body />}
+>
+  <div
+    className="cms-popover-container "
+    id="test-container-12345"
+  >
+    <div
+      className="cms-popover-mask"
+    />
+    <div
+      className="cms-popover-content"
+      id="test-56789"
+    >
+      <div>
+        Hello CmsPopoverUI
+      </div>
+    </div>
+  </div>
+</Portal>
+`;

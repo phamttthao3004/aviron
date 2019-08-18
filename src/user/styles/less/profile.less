@@ -1,0 +1,528 @@
+#profile-page {
+    .container-avatar {
+        display: inline-flex;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 24px;
+    }
+
+    input[type='file'] {
+        display: none;
+    }
+    .profile-info {
+        font-family: Lato;
+        background-color: #f6f6f6;
+        padding: 30px 0px;
+        .avatar-box {
+            padding: 0px;
+            border: none;
+            .img {
+                display: inline-block;
+                width: 160px;
+                height: 160px;
+                border-radius: 50%;
+                overflow: hidden;
+                border-style: solid;
+                border-width: 1px;
+                border-color: #aa1a1a;
+                overflow: hidden;
+            }
+
+            img {
+                border-radius: 0px;
+            }
+        }
+        .user-info-box {
+            > p {
+                margin: 0px;
+                &:first-child {
+                    font-size: 32px;
+                    font-weight: bold;
+                    color: @PrimaryText;
+                    line-height: 1;
+                    padding: 20px 0px 10px 0px;
+                }
+                &:nth-child(2) {
+                    font-size: 18px;
+                    color: @SecondaryText;
+                }
+            }
+            ul {
+                margin: 16px 0px 0px;
+                padding: 0px;
+                list-style: none;
+                li {
+                    display: inline-block;
+                    margin-left: 16px;
+                    border-radius: 4px;
+                    p {
+                        margin: 0px;
+                    }
+                    &:first-child {
+                        position: relative;
+                        font-size: 14px;
+                        border: solid 1px rgba(207, 8, 59, 0.24);
+                        background-color: #fff;
+                        padding: 7px 14px 7px 42px;
+                        img {
+                            position: absolute;
+                            top: -6px;
+                            left: -12px;
+                        }
+                    }
+                    &:last-child {
+                        font-size: 16px;
+                        border: solid 1px #979797;
+                        padding: 6px 9px;
+                        span {
+                            display: inline-block;
+                            margin-left: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .profile-overview-page-info {
+        padding: 40px 0px;
+        font-family: Lato;
+        .nav-tab-time {
+            display: block;
+            list-style: none;
+            margin: 0px 0px 20px -6px;
+            li {
+                display: inline-block;
+                min-width: 150px;
+                text-transform: uppercase;
+                padding: 0px 6px;
+                margin-bottom: 10px;
+                text-align: center;
+                span {
+                    display: block;
+                    border-radius: 4px;
+                    border: solid 1px @SecondaryText;
+                    font-size: 16px;
+                    color: @PrimaryText;
+                    padding: 9px 0px;
+                    cursor: pointer;
+                    transition: all ease 0.3s;
+                    &:hover,
+                    &.active {
+                        color: #fff;
+                        border: solid 1px #cf083b;
+                        background-color: #cf083b;
+                    }
+                }
+            }
+        }
+    }
+    .result-exercise {
+        display: block;
+        text-align: center;
+        .result-item {
+            float: left;
+            width: calc(20% - 5px);
+            margin: 0px 5px 5px 0px;
+            border-radius: 4px;
+            background-color: #f6f6f6;
+            padding: 16px 0px 5px 0px;
+            p {
+                &:first-child {
+                    color: @SecondaryText;
+                    font-size: 12px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+                &:last-child {
+                    color: #a5333e;
+                    font-size: 40px;
+                    font-weight: 500;
+                }
+            }
+        }
+        &:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+    }
+
+    .achievements {
+        display: block;
+        margin: 65px 0px 60px 0px;
+        .achievements-result {
+            display: block;
+            border-radius: 2px;
+            background-color: #faeaea;
+            font-size: 18px;
+            color: @PrimaryText;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 30px;
+            span {
+                color: #a5333e;
+                font-weight: bold;
+                font-size: 24px;
+            }
+        }
+        .achivements-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: @PrimaryText;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+        .achievements-list {
+            display: block;
+            margin: 0px -9px;
+            .achievements-item {
+                float: left;
+                width: calc(100% / 5 - 18px);
+                margin: 0px 9px 9px 9px;
+                border: solid 1px #ededed;
+                text-align: center;
+                .img {
+                    display: block;
+                    padding: 16px 5px;
+                    img {
+                        max-width: 100%;
+                        max-height: 100px;
+                    }
+                }
+                span {
+                    display: block;
+                    background-color: #ededed;
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: @PrimaryText;
+                }
+            }
+            &:after {
+                content: '';
+                display: block;
+                clear: both;
+            }
+        }
+    }
+
+    .game-select {
+        div:first-child {
+            width: 100%;
+            border-color: #f2f2f2;
+        }
+
+        width: 100%;
+        background: #f2f2f2;
+        height: 38px;
+        cursor: pointer;
+        border-radius: 3px;
+        position: relative;
+    }
+
+    .btn-show-advanced {
+        //height: 29px;
+        i {
+            font-size: 17px;
+        }
+    }
+
+    .container-advanced {
+        height: 36px;
+        display: flex;
+        align-items: center;
+    }
+    #profile-workout-page {
+        display: block;
+        margin: 50px 0px;
+        .workout-info {
+            width: calc(100% - 261px);
+            float: left;
+        }
+        .workout-history {
+            width: 261px;
+            float: left;
+            background-color: #f6f6f6;
+            padding: 14px 14px 0px 14px;
+            color: @PrimaryText;
+            .title {
+                font-size: 16px;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+                i {
+                    margin-right: 10px;
+                }
+            }
+            .workout-history-per-day {
+                margin: 0px 0px 16px 0px;
+                background-color: #fff;
+                .exercise {
+                    background-color: #dcdcdc;
+                    position: relative;
+                    padding: 5px 40px 5px 10px;
+                    text-transform: uppercase;
+                    span {
+                        position: absolute;
+                        right: 0px;
+                        top: 0px;
+                        width: 30px;
+                        height: 30px;
+                        font-size: 10px;
+                        color: @ContentColor;
+                        background-color: #3a3a3a;
+                        text-align: center;
+                        padding: 0px 2px;
+                        text-transform: none;
+                    }
+                }
+                ul {
+                    padding: 12px;
+                    display: block;
+                    li {
+                        display: inline-block;
+                        width: 30%;
+                        text-align: center;
+                        &:last-child {
+                            width: 40%;
+                            border-left: 1px solid #fae7e7;
+                        }
+                        p {
+                            &:first-child {
+                                font-size: 8px;
+                                color: @SecondaryText;
+                                text-transform: uppercase;
+                            }
+                            &:last-child {
+                                font-size: 24px;
+                                color: @PrimaryText;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &::after {
+            content: '';
+            clear: both;
+        }
+    }
+}
+#dialog-friend-list {
+    width: 100%;
+    max-width: 390px;
+    background-color: #fff;
+    position: relative;
+    z-index: 10000;
+    border-radius: 8px;
+    .friend-list-header {
+        padding: 17px 30px;
+        display: block;
+        border-bottom: solid 2px #e5e4e4;
+        span {
+            font-size: 16px;
+            font-weight: bold;
+            color: #ce083b;
+            text-transform: uppercase;
+        }
+        i {
+            float: right;
+            cursor: pointer;
+        }
+    }
+    .friend-list-content {
+        position: relative;
+        max-height: 400px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        .friend-item {
+            display: block;
+            padding: 10px 30px;
+            &:not(:last-child) {
+                border-bottom: solid 1px #e5e4e4;
+            }
+            .img {
+                border-radius: 50%;
+                float: left;
+                border: solid 1px #979797;
+                overflow: hidden;
+                margin-right: 15px;
+                width: 60px;
+                img {
+                    max-width: 100%;
+                }
+            }
+            p {
+                &.name {
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: @PrimaryText;
+                    margin-top: 5px;
+                }
+                &:last-child {
+                    font-size: 14px;
+                    color: @SecondaryText;
+                }
+            }
+            &:after {
+                content: '';
+                display: block;
+                clear: both;
+            }
+        }
+    }
+}
+#profile-basic-info-page {
+    input[type='text'] {
+        border-radius: 3px;
+        height: 36px;
+        border: none !important;
+        color: #333;
+        box-shadow: none;
+        padding: 6px 12px;
+    }
+
+    .error-msg {
+        margin-bottom: 0px;
+    }
+
+    .container-select-country {
+        padding-bottom: 10px;
+
+        .error-msg {
+            margin-top: 12px;
+        }
+    }
+    .form-horizontal {
+        width: 480px;
+        margin: auto;
+
+        .form-group {
+            display: flex;
+            align-items: center;
+        }
+
+        .control-label {
+            padding-top: 0px;
+        }
+    }
+    span.control-label {
+        font-weight: bold;
+    }
+}
+@media (max-width: 992px) {
+    #profile-page {
+        .profile-overview-page-info {
+            .nav-tab-time {
+                text-align: center;
+            }
+        }
+        .result-exercise {
+            text-align: center;
+            .result-item {
+                width: 209px;
+                display: inline-block;
+                float: none;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    #profile-page {
+        .achievements {
+            .achievements-list {
+                text-align: center;
+                .achievements-item {
+                    width: 162px;
+                    display: inline-block;
+                    float: none;
+                }
+            }
+        }
+    }
+    #profile-basic-info-page {
+        .form-horizontal {
+            width: 90%;
+            margin: auto;
+
+            .form-group {
+                display: block;
+            }
+        }
+    }
+}
+@media (max-width: 600px) {
+    #profile-page {
+        .profile-info {
+            .avatar-box {
+                padding: 0px;
+                display: inline-block;
+                width: 100%;
+                text-align: center;
+                height: auto;
+                .img {
+                    width: 120px;
+                    height: 120px;
+                }
+            }
+            .user-info-box {
+                text-align: center;
+            }
+        }
+        .achievements {
+            margin: 25px 0px;
+            .achivements-title {
+                font-size: 20px;
+            }
+        }
+        .profile-overview-page-info {
+            .nav-tab-time {
+                li {
+                    min-width: 50%;
+                    span {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .result-exercise {
+            .result-item {
+                p {
+                    &:last-child {
+                        font-size: 32px;
+                    }
+                }
+            }
+        }
+        #profile-workout-page {
+            margin: 30px 0px;
+            .workout-info,
+            .workout-history {
+                width: 100%;
+            }
+        }
+    }
+}
+@media (max-width: 400px) {
+    #profile-page {
+        .profile-info {
+            .user-info-box {
+                > p {
+                    &:first-child {
+                        font-size: 24px;
+                    }
+                    &:nth-child(2) {
+                        font-size: 16px;
+                    }
+                }
+                ul {
+                    li {
+                        margin-left: 10px;
+                        &:first-child {
+                            padding: 7px 14px 7px 35px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

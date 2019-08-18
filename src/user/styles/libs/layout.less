@@ -1,0 +1,282 @@
+.navbar {
+   &.navbar-inverse {
+      border-radius: 0px;
+      background-color: #fff;
+      border: none;
+      height: 70px;
+      margin-bottom: 0px;
+      .container-fluid {
+         height: 100%;
+         .navbar-header {
+            height: 100%;
+            button[data-target="#aviron-menu"] {
+               background: none;
+               border: none;
+               padding: 19px 10px;
+               .icon-bar {
+                  background-color: @red-1;
+                  width: 28px;
+               }
+            }
+         }
+         #aviron-menu {
+            & > ul.nav {
+               height: 100%;
+               & > li {
+                  height: 100%;
+                  & > a {
+                     height: 100%;
+                     background: #fff;
+                     color:#666;
+                     text-transform: uppercase;
+                     font-weight: 700;
+                      padding: 10px 25px;
+                      line-height: 50px;
+                      .transition-all(0.2s);
+                  }
+                  &.active {
+                     a {
+                        color:@red-1;
+                     }
+                  }
+                  &:hover {
+                     & > a {
+                        background: #fff;
+                        color:@red-1;
+
+                     }
+                  }
+               }
+            }
+         }
+         // END :: #aviron-menu
+      }
+   }
+}
+// END :: navbar
+// ------------------------------------------
+// ------------------------------------------
+// START :: Nav bar mobile
+@media (max-width: @screen-xs-max) {
+   .navbar {
+      z-index: 1;
+      .container-fluid{
+         #aviron-menu {
+            border-color : #ccc !important;
+            ul.navbar-nav {
+               margin-top: 0px;
+            }
+         }
+      }
+   }
+}
+// END :: Nav bar mobile
+// ------------------------------------------
+
+// ------------------------------------------
+// START :: Change breakpoint nav bar
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+      float: none!important;
+		margin-top: 7.5px;
+      & >li {
+           float: none;
+           &> a {
+              padding-top: 10px;
+              padding-bottom: 10px;
+          }
+       }
+	}
+    .collapse.in{
+  		display:block !important;
+	}
+
+   .navbar {
+      z-index: 1;
+      .container-fluid{
+         #aviron-menu {
+            border-color : #ccc !important;
+            ul.navbar-nav {
+               margin-top: 0px;
+               li {
+                  ul {
+                     &.dropdown-cart {
+                        left: 0;
+                        right: auto !important; 
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+
+
+}
+// END :: Change breakpoint nav bar
+// ------------------------------------------
+
+// ------------------------------------------
+// START :: PC nav
+.pc-nav {
+   background: #f2f2f2;
+   height: 60px;
+   .container-fluid {
+      height: 100%;
+      & > ul {
+         text-align: center;
+         height: 100%;
+         padding-left: 0px;
+         & > li {
+            display: inline-block;
+            list-style: none;
+            height: 100%;
+            text-align: center;
+            padding: 5px 30px;
+            .transition-all(0.3s);
+            a {
+               text-decoration: none;
+               text-transform: uppercase;
+               color: #666;
+               font-weight: 600;
+               text-align: center;
+               font-size: 12px;
+               .transition-all(0.3s);
+               i {
+                  font-size: 20px;
+               }
+            }
+            &:hover {
+               background: @red-1;
+               color: #fff;
+               a {
+                  color: #fff;
+               }
+            }
+            &.active {
+               background: @red-1;
+               a {
+                  color: #fff;
+               }
+            }
+         }
+      }
+   }
+}
+// END :: PC nav
+// ------------------------------------------
+
+
+// ------------------------------------------
+// START :: PC nav mobile
+@media (max-width: @screen-xs-max) {
+   .pc-nav {
+      & > .container-fluid {
+         ul {
+            li {
+               padding: 5px 14px;
+            }
+         }
+      }
+   }
+}
+@media (max-width: 420px) {
+   .pc-nav {
+      & > .container-fluid {
+         ul {
+            li {
+               padding: 14px 20px;
+               p {
+                  display: none;
+               }
+            }
+         }
+      }
+   }
+}
+// END :: PC nav mobile
+// ------------------------------------------
+
+
+// ------------------------------------------
+// START :: Footer
+footer {
+   text-align: center;
+   background: @grey;
+   .container {
+      .top {
+         .logo {
+            margin-top: 50px;
+         }
+      }
+      .end {
+         font-size: 12px;
+         border-top: 1px solid #cccccc;
+         padding: 30px 0px;
+         font-weight: 700;
+         color: @text;
+      }
+   }
+}
+// END :: footer
+// ------------------------------------------
+// ------------------------------------------
+// START :: Footer mobile
+@media (max-width: @screen-xs-max) {
+   footer {
+      .top {
+         img {
+            height: 75px;
+         }
+         .social {
+            li {
+               margin-left: 5px;
+               margin-right: 5px;
+            }
+         }
+      }
+   }
+}
+// END :: footer mobile
+// ------------------------------------------
+
+ul.social {
+   margin: 34px 0px;
+   padding-left: 0px;
+   li {
+      list-style: none;
+      display: inline-block;
+      background: @red-1;
+      border-radius: 50%;
+      padding: 8px;
+      margin-left: 14px;
+      margin-right: 14px;
+      .transition-all(0.3s);
+      a {
+         color: #fff;
+      }
+      &:hover {
+         opacity: 0.7;
+      }
+   }
+}

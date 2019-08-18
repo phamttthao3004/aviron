@@ -1,0 +1,98 @@
+#subscription-page {
+    margin: 40px 0px;
+    table {
+        tbody {
+            tr {
+                td {
+                    padding: 0px 8px;
+                    &:first-child {
+                        min-height: 46px;
+                        padding: 15px 8px;
+                    }
+                }
+            }
+        }
+        button {
+            padding: 5px;
+            background-color: transparent;
+            height: 100%;
+            span {
+                display: inline-block;
+                color: @ContentColor;
+                background-color: #444444;
+                padding: 7px 8px;
+                border-radius: 4px;
+            }
+        }
+        i {
+            font-size: 24px;
+            color: #93989c;
+        }
+    }
+    .container-get-subscription {
+        max-width: 600px;
+    }
+
+    .checkout {
+        max-width: 600px;
+    }
+
+    .container-btn-top {
+        margin-bottom: 24px;
+    }
+
+    .label-back-subscription {
+        cursor: pointer;
+        height: 17px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #ce083b;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container-option {
+        .row {
+            margin-bottom: 24px;
+        }
+
+        margin-bottom: 24px;
+    }
+
+    .btn-more-info {
+        height: 17px;
+        font-family: Lato;
+        font-size: 14px;
+        color: #666666;
+        position: relative;
+
+        .label-more-info {
+            cursor: pointer;
+            position: absolute;
+            right: 0;
+        }
+    }
+
+    label {
+        font-family: Lato;
+        font-size: 14px;
+        color: #666666;
+        font-weight: normal;
+    }
+
+    select {
+        background-color: #f2f2f2;
+        border: 0px solid #ccc;
+    }
+
+    @media all and (max-width: 992px) {
+        .btn-group-table-action {
+            button {
+                span {
+                    display: none;
+                }
+            }
+        }
+    }
+}

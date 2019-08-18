@@ -1,0 +1,89 @@
+﻿.payment-container {
+    margin: 30px 0px;
+
+    .StripeElement {
+        display: block;
+        margin: 10px 0 20px 0;
+        max-width: 400px;
+        padding: 10px 14px;
+        box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px, rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+        border-radius: 4px;
+        background: #f1f4f8;
+    }
+
+    .StripeElement--focus {
+        box-shadow: rgba(50, 50, 93, 0.109804) 0px 4px 6px, rgba(0, 0, 0, 0.0784314) 0px 1px 3px;
+        -webkit-transition: all 150ms ease;
+        transition: all 150ms ease;
+    }
+    .aviron-cart-detail {
+        margin: 0px;
+        width: 100%;
+        background-color: #e7e7e7;
+        box-shadow: none !important;
+    }
+    .checkout-content {
+        margin-bottom: 20px;
+        button {
+            min-width: 127px;
+        }
+
+        .btn-pay {
+            float: right;
+            background-color: #d0002d;
+            color: #fff;
+        }
+
+        .checkout {
+            margin: 0 auto;
+            max-width: 800px;
+            box-sizing: border-box;
+            padding: 0 5px;
+        }
+
+        button:hover {
+            color: #fff;
+            cursor: pointer;
+            background-color: #ce0832;
+            transform: translateY(-1px);
+            box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+        }
+        .title {
+            color: @PrimaryText;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+        p {
+            margin-bottom: 10px;
+            img {
+                max-width: 100%;
+            }
+        }
+        .input-group {
+            width: 100%;
+            margin-bottom: 25px;
+            .input-group-addon {
+                font-size: 14px;
+                padding: 6px 6px 6px 16px;
+                border: none;
+                background-color: #f2f2f2;
+                font-size: 16px;
+                font-weight: bold;
+            }
+            input {
+                background-color: #f2f2f2;
+                border: none;
+                box-shadow: none;
+                height: 40px;
+            }
+        }
+        .review-content {
+            margin-bottom: 40px;
+            p {
+                margin-bottom: 20px;
+            }
+            clear: both;
+        }
+    }
+}

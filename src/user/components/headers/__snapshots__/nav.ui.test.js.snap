@@ -1,0 +1,397 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav UI Render Nav UI component with currentPage=CONSTANTS.SIDEBAR_PAGEID.EQUIPMENT 1`] = `
+<div
+  className="pc-nav"
+>
+  <div
+    className="container-fluid"
+  >
+    <ul>
+      <li
+        className=""
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        <span>
+          <i
+            className="icon-single-01-2"
+          />
+          <p>
+            profile
+          </p>
+        </span>
+      </li>
+      <li
+        className="active"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        <span>
+          <i
+            className="icon-layout-11"
+          />
+          <p>
+            equipment
+          </p>
+        </span>
+      </li>
+    </ul>
+  </div>
+  <div
+    id="cart"
+  >
+    <div
+      className="pc-nav-cart-info"
+      onClick={[Function]}
+      role="presentation"
+    >
+      <i
+        className="icon-cart"
+      />
+      <p>
+        Cart
+        <span>
+          1
+        </span>
+      </p>
+    </div>
+    <span
+      className="btnBuyNow"
+      onClick={[Function]}
+      role="presentation"
+    >
+      Buy now
+    </span>
+  </div>
+  <CmsPopover
+    anchorId="nav-account-setting"
+    className="popover-cart"
+    clickOutsideToClose={true}
+    onClose={[Function]}
+    open={false}
+    placement="bottom"
+  >
+    <div
+      className="aviron-cart-detail"
+    >
+      <CartBox />
+      <button
+        className="check-out"
+        onClick={[Function]}
+        type="button"
+      >
+        CHECK OUT
+      </button>
+    </div>
+  </CmsPopover>
+</div>
+`;
+
+exports[`Nav UI Render Nav UI component with currentPage=CONSTANTS.SIDEBAR_PAGEID.PROFILE 1`] = `
+<div
+  className="pc-nav"
+>
+  <div
+    className="container-fluid"
+  >
+    <ul>
+      <li
+        className="active"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        <span>
+          <i
+            className="icon-single-01-2"
+          />
+          <p>
+            profile
+          </p>
+        </span>
+      </li>
+      <li
+        className=""
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        <span>
+          <i
+            className="icon-layout-11"
+          />
+          <p>
+            equipment
+          </p>
+        </span>
+      </li>
+    </ul>
+  </div>
+  <div
+    id="cart"
+  >
+    <div
+      className="pc-nav-cart-info"
+      onClick={[Function]}
+      role="presentation"
+    >
+      <i
+        className="icon-cart"
+      />
+      <p>
+        Cart
+        <span>
+          1
+        </span>
+      </p>
+    </div>
+    <span
+      className="btnBuyNow"
+      onClick={[Function]}
+      role="presentation"
+    >
+      Buy now
+    </span>
+  </div>
+  <CmsPopover
+    anchorId="nav-account-setting"
+    className="popover-cart"
+    clickOutsideToClose={true}
+    onClose={[Function]}
+    open={false}
+    placement="bottom"
+  >
+    <div
+      className="aviron-cart-detail"
+    >
+      <CartBox />
+      <button
+        className="check-out"
+        onClick={[Function]}
+        type="button"
+      >
+        CHECK OUT
+      </button>
+    </div>
+  </CmsPopover>
+</div>
+`;
+
+exports[`Nav UI Render Nav UI component with currentPage=CONSTANTS.SIDEBAR_PAGEID.RECEIPT 1`] = `
+<div
+  className="pc-nav"
+>
+  <div
+    className="container-fluid"
+  >
+    <div
+      className="nav-title"
+    >
+      Receipt
+    </div>
+  </div>
+  <div
+    id="cart"
+  >
+    <div
+      className="pc-nav-cart-info"
+      onClick={[Function]}
+      role="presentation"
+    >
+      <i
+        className="icon-cart"
+      />
+      <p>
+        Cart
+        <span>
+          1
+        </span>
+      </p>
+    </div>
+    <span
+      className="btnBuyNow"
+      onClick={[Function]}
+      role="presentation"
+    >
+      Buy now
+    </span>
+  </div>
+  <CmsPopover
+    anchorId="nav-account-setting"
+    className="popover-cart"
+    clickOutsideToClose={true}
+    onClose={[Function]}
+    open={false}
+    placement="bottom"
+  >
+    <div
+      className="aviron-cart-detail"
+    >
+      <CartBox />
+      <button
+        className="check-out"
+        onClick={[Function]}
+        type="button"
+      >
+        CHECK OUT
+      </button>
+    </div>
+  </CmsPopover>
+</div>
+`;
+
+exports[`Nav UI Render Nav UI component with currentPage=CONSTANTS.SIDEBAR_PAGEID.SUBSCRIPTION 1`] = `
+<div
+  className="pc-nav"
+>
+  <div
+    className="container-fluid"
+  >
+    <div
+      className="nav-title"
+    >
+      Subscription
+    </div>
+  </div>
+  <div
+    id="cart"
+  >
+    <div
+      className="pc-nav-cart-info"
+      onClick={[Function]}
+      role="presentation"
+    >
+      <i
+        className="icon-cart"
+      />
+      <p>
+        Cart
+        <span>
+          1
+        </span>
+      </p>
+    </div>
+    <span
+      className="btnBuyNow"
+      onClick={[Function]}
+      role="presentation"
+    >
+      Buy now
+    </span>
+  </div>
+  <CmsPopover
+    anchorId="nav-account-setting"
+    className="popover-cart"
+    clickOutsideToClose={true}
+    onClose={[Function]}
+    open={false}
+    placement="bottom"
+  >
+    <div
+      className="aviron-cart-detail"
+    >
+      <CartBox />
+      <button
+        className="check-out"
+        onClick={[Function]}
+        type="button"
+      >
+        CHECK OUT
+      </button>
+    </div>
+  </CmsPopover>
+</div>
+`;
+
+exports[`Nav UI Render Nav UI component with currentPage=undefined 1`] = `
+<div
+  className="pc-nav"
+>
+  <div
+    className="container-fluid"
+  >
+    <ul>
+      <li
+        className=""
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        <span>
+          <i
+            className="icon-single-01-2"
+          />
+          <p>
+            profile
+          </p>
+        </span>
+      </li>
+      <li
+        className=""
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        <span>
+          <i
+            className="icon-layout-11"
+          />
+          <p>
+            equipment
+          </p>
+        </span>
+      </li>
+    </ul>
+  </div>
+  <div
+    id="cart"
+  >
+    <div
+      className="pc-nav-cart-info"
+      onClick={[Function]}
+      role="presentation"
+    >
+      <i
+        className="icon-cart"
+      />
+      <p>
+        Cart
+        <span>
+          1
+        </span>
+      </p>
+    </div>
+    <span
+      className="btnBuyNow"
+      onClick={[Function]}
+      role="presentation"
+    >
+      Buy now
+    </span>
+  </div>
+  <CmsPopover
+    anchorId="nav-account-setting"
+    className="popover-cart"
+    clickOutsideToClose={true}
+    onClose={[Function]}
+    open={false}
+    placement="bottom"
+  >
+    <div
+      className="aviron-cart-detail"
+    >
+      <CartBox />
+      <button
+        className="check-out"
+        onClick={[Function]}
+        type="button"
+      >
+        CHECK OUT
+      </button>
+    </div>
+  </CmsPopover>
+</div>
+`;

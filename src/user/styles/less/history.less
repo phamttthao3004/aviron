@@ -1,0 +1,57 @@
+#history-page {
+    .the-graph {
+        overflow-x: auto;
+
+        .container-chart {
+            min-width: 500px;
+            overflow: auto;
+        }
+    }
+
+    .overview-container {
+        select {
+            margin-left: 12px;
+        }
+    }
+
+    .active {
+        &:before {
+            bottom: 0px;
+        }
+    }
+
+    .tab-circle {
+        li {
+            min-width: 120px;
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .overview-container {
+            .tab-line {
+                li {
+                    display: flex;
+                }
+            }
+        }
+
+        .tab-circle {
+            padding-left: 0;
+        }
+    }
+
+    @media all and (max-width: 991px) {
+        .data-metric .row div {
+            padding: 10px 0px;
+
+            &:not(:last-child) {
+                border-right: none;
+            }
+        }
+
+        .graph-head .container > div {
+            padding: 0px 0px;
+        }
+    }
+}

@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Top UI Render Top UI component 1`] = `
+<nav
+  className="navbar navbar-inverse"
+>
+  <div
+    className="container-fluid"
+  >
+    <div
+      className="navbar-header"
+    >
+      <a
+        className="navbar-brand pointer"
+        href="/"
+      >
+        <img
+          alt="Aviron logo"
+          src="/images/user/logo.png"
+        />
+      </a>
+      <div
+        className="navbar-account"
+      >
+        <a
+          className="navbar-account-avatar pointer"
+          href="/"
+        >
+          <img
+            alt="Avatar"
+            src="/images/user/no-avatar.png"
+          />
+          <span>
+            Larry Garza
+          </span>
+        </a>
+        <span
+          id="nav-account-setting"
+          onClick={[Function]}
+          role="presentation"
+        >
+          <i
+            className="icon-ic_more_horiz_48px"
+          />
+        </span>
+        <CmsPopover
+          anchorId="nav-account-setting"
+          className="popover-account"
+          clickOutsideToClose={true}
+          onClose={[Function]}
+          open={false}
+          placement="bottom"
+        >
+          <div
+            style={
+              Object {
+                "height": "109px",
+                "width": "152px",
+              }
+            }
+          >
+            <ul
+              className="nav-list-item"
+            >
+              <li
+                className=""
+                onClick={[Function]}
+                role="presentation"
+              >
+                <span>
+                  Subscription
+                </span>
+              </li>
+              <li
+                className=""
+                onClick={[Function]}
+                role="presentation"
+              >
+                <span>
+                  Receipt
+                </span>
+              </li>
+              <li
+                onClick={[Function]}
+                role="presentation"
+              >
+                <span>
+                  Log out
+                </span>
+              </li>
+            </ul>
+          </div>
+        </CmsPopover>
+      </div>
+    </div>
+  </div>
+</nav>
+`;

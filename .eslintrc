@@ -1,0 +1,38 @@
+{
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react"
+  ],
+  "parser": "babel-eslint",
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import",
+    "react-hooks"
+  ],
+  "globals": {
+    "document": true,
+    "window": true
+  },
+  "rules": {
+    "func-names": "off",
+    "react/jsx-filename-extension": "off",
+    "camelcase": [
+      0,
+      { }
+    ],
+    "jsx-a11y/label-has-for": [
+      2,
+      {
+        "components": [ "Label" ],
+        "required": {
+          "some": [ "nesting", "id" ]
+        },
+        "allowChildren": false
+      }
+    ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}
