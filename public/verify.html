@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="favicon.png?v7.0.0.37" rel="shortcut icon">
+    <title>Aviron - Login</title>
+
+    <link rel="stylesheet" type="text/css" href="/login/fonts/roboto/roboto.css" />
+    <link rel="stylesheet" type="text/css" href="/login/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/login/css/layout.css" />
+    <!-- END CSS INCLUDE -->
+    <!-- CSS INCLUDE -->
+
+</head>
+<body onload="VerifyEmail()">
+    <div class="loading-mask"></div>
+    <div class="loading">
+        <div class="loading-container">
+            <div class="lds-dual-ring"></div>
+        </div>
+    </div>
+    <div id="login-page">
+        <div class="background-container">
+        </div>
+        <div class="login-container">
+            <div class="content-container">
+                <div class="image-container">
+                    <img class="image" src="/login/img/logo.png" />
+                </div>
+                <div class="session-container login-session">
+                    <h4>
+                        
+                    </h4>
+                    <br>
+                    <br>
+                    <button onclick="ResendMailVerify()" class="btn btn-danger button-item">Resend email for verify</button>
+                </div>
+            </div>
+            <div class="form-group i3-container">
+                <span class="i3-txt">© Copyright 2019 Aviron Interactive Inc.</span>
+            </div>
+        </div>
+    </div>
+    <!-- APP SCRIPTS -->
+    <script type="text/javascript" src="/scripts/libs/jquery-2.2.2.js"></script>
+    <script type="text/javascript" src="/scripts/libs/sweetalert.min.js"></script>
+    <script type="text/javascript" src="/scripts/apps/window-variables.js"></script>
+    <script type="text/javascript" src="/scripts/apps/commons.js"></script>
+    <script type="text/javascript" src="/scripts/apps/api-service.js"></script>
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <script type="text/javascript" src="/login/js/fb.js"></script>
+    <script type="text/javascript" src="/login/js/google.js"></script>    
+    <script type="text/javascript" src="/login/js/verify-email.js"></script>
+
+    <!-- END APP SCRIPTS -->
+</body>
+
+
+</html>

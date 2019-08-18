@@ -1,0 +1,54 @@
+{
+  "name": "aviron_cms",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "chart.js": "^2.8.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "history": "^4.9.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.5",
+    "react-chartjs-2": "^2.7.5",
+    "react-dom": "^16.8.5",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.8",
+    "react-select": "^2.4.2",
+    "react-stripe-elements": "^2.0.3",
+    "redux": "^4.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "lint": "eslint src/user --fix",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "babel-jest": "^23.6.0",
+    "enzyme-to-json": "^3.3.5",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.0",
+    "eslint-plugin-react-hooks": "^1.6.1",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "jest": "^23.6.0",
+    "jest-cli": "^24.8.0"
+  }
+}
